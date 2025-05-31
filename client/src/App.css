@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0; /* Reset body padding */
+}
+
+.App {
+  text-align: center;
+  padding: 20px; /* Add padding to the App container */
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.add-todo-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.add-todo-form input[type="text"] {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 16px;
+}
+
+.add-todo-form button {
+  padding: 10px 15px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-todo-form button:hover {
+  background-color: #4cae4c;
+}
+
+.empty-message {
+  color: #777;
+  font-style: italic;
+}
+
+.error-message {
+  color: red;
+  background-color: #ffe0e0;
+  border: 1px solid red;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.loading-message {
+  color: #555;
+  font-style: italic;
+  padding: 10px;
+  text-align: center;
+}

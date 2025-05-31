@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/somasekharraju9/test-nodejs#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "pg": "^8.11.5"
   }
 }

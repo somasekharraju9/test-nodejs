@@ -1,1 +1,8 @@
 node_modules/
+
+# React client specific
+client/node_modules
+client/build
+client/.env
+.DS_Store
+client/.DS_Store
